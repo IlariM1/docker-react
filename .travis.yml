@@ -13,8 +13,11 @@ deploy:
   access_key_id: "$AWS_ACCESS_KEY"
   secret_access_key: "$AWS_SECRET_KEY"
   region: "eu-north-1"
-  app: "docker-react"
-  env: "Dockerreact-env"
+  app: "docker"
+  env: "Docker-env"
   bucket_name: "elasticbeanstalk-eu-north-1-268630953295"
+  bucket_path: "docker"
   on:
     branch: main
+
+  #Docker-env.eba-aqbdvmae.eu-north-1.elasticbeanstalk.com
